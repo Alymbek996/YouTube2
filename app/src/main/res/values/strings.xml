@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">YouTube2</string>
+    <string name="title">title</string>
+    <string name="_16video">16video</string>
+    <string name="playlist">playlist</string>
+    <string name="todo1">todo1</string>
+    <string name="todo">todo</string>
+</resources>
