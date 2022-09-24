@@ -1,7 +1,8 @@
-package com.geektech.youtube2.remote
+package com.geektech.youtube2.core.netwrok.result
 
 
 import com.geektech.youtube2.BuildConfig
+import com.geektech.youtube2.data.remote.ApiService
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit
@@ -11,7 +12,7 @@ import java.util.concurrent.TimeUnit
 class RetrofitClient {
 
     companion object{
-        fun create():ApiService{
+        fun create(): ApiService {
             val interceptor = HttpLoggingInterceptor()
             interceptor.setLevel(HttpLoggingInterceptor.Level.BODY)
             val okHttpClient = OkHttpClient.Builder()

@@ -1,4 +1,4 @@
-package com.geektech.youtube2.base
+package com.example.youtubeapi44.core.ui
 
 import android.os.Bundle
 import android.view.LayoutInflater

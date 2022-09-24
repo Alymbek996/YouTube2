@@ -17,10 +17,13 @@
         android:theme="@style/Theme.YouTube2"
         tools:targetApi="31">
         <activity
-            android:name=".ui.UIActivity1"
+            android:name=".core.ui.activity_playlist2.ActivityPlaylistVideo"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".core.ui.activity.ActivityIncludeConIn"
+            android:exported="false" />
+        <activity
+            android:name=".core.ui.activity.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

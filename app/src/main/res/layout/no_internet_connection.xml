@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rl_parent">
+
+    <ImageView
+        android:id="@+id/iv_no_connection"
+        android:layout_width="wrap_content"
+        android:src="@drawable/il_no_connection"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:contentDescription="@string/todoig" />
+
+    <TextView
+        android:layout_below="@id/iv_no_connection"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="@dimen/big_margin"
+        android:textSize="@dimen/page_margin"
+        android:textColor="@color/black_light"
+        android:text="@string/no_internet_connection"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btn_try_again"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/try_again"
+        android:backgroundTint="@color/red_button"
+        android:textAllCaps="false"
+        android:layout_marginHorizontal="@dimen/page_margin"
+        android:layout_marginBottom="@dimen/page_margin_x2"
+        android:layout_alignParentBottom="true"/>
+
+
+</RelativeLayout>

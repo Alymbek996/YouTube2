@@ -5,4 +5,13 @@
     <string name="playlist">playlist</string>
     <string name="todo1">todo1</string>
     <string name="todo">todo</string>
+    <string name="try_again">try_again</string>
+    <string name="no_internet_connection">no_internet_connection</string>
+    <string name="todoig">TODO</string>
+    <string name="beck">Beck</string>
+    <string name="description_playlist">description_playlist_</string>
+    <string name="title_">title_</string>
+    <string name="video_series">video_series</string>
+    <string name="video_title">video_title</string>
+    <string name="_00_00">00:00</string>
 </resources>
